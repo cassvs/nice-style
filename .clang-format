@@ -1,0 +1,8 @@
+# A fairly nice (IMO) C/C++ formatting style for VS Code
+#     - No hanging braces
+#     - 4-space tabs
+#     - Long lines
+
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 200
