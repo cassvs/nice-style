@@ -2,7 +2,12 @@
 #     - No hanging braces
 #     - 4-space tabs
 #     - Long lines
+#     - No one-line blocks, ifs, or loops
 
 BasedOnStyle: Google
 IndentWidth: 4
-ColumnLimit: 200
+ColumnLimit: 0
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
